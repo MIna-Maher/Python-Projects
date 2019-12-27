@@ -1,18 +1,21 @@
-#!/bin/python
+#!/bin/python3
 
+import math
+import os
+import random
+import re
 import sys
 
 
-N = int(raw_input().strip())
+
+N = int(input())
 
 if N % 2 != 0:
-    print "Weird"
+    print ("Weird")
 else:
     if N >= 2 and N <= 5:
-        print "Not Weird"
+        print ("Not Weird")
     elif N >= 6 and N <= 20:
-        print "Weird"
+        print ("Weird")
     elif N > 20:
-        print "Not Weird"
-        #Ending  
-        
+        print ("Not Weird")
